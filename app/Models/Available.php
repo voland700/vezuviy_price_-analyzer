@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Available extends Model
+{
+    protected $table = 'availables';
+    protected $guarded = [];
+}

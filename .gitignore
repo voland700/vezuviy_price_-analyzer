@@ -1,0 +1,69 @@
+# ---------- Laravel / PHP ----------
+*.log
+.env
+.env.backup
+.env.production
+.env.local
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+/auth.json
+/storage/*.key
+/storage/pail
+/vendor
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+Homestead.json
+Homestead.yaml
+
+# ---------- Node / Frontend ----------
+/node_modules
+/public/build
+/public/hot
+/public/fonts-manifest.dev.json
+
+# ---------- Public assets (хранятся в git, кроме сборок) ----------
+# Файлы загрузок и пользовательские медиа — не в репозиторий
+/public/storage
+/public/uploads
+
+# ---------- Python (парсер scripts/) ----------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- ОС ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---------- Редакторы / IDE ----------
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.vscode
+/.zed
+*.swp
+*.swo
+*~
+
+# ---------- Прочее ----------
+/.docusaurus
+/coverage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
